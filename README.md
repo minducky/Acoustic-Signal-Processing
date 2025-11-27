@@ -1,6 +1,6 @@
 # Acoustic Signal Processing
 
-A Python library for acoustic signal analysis and visualization, designed for research in auditory neuroscience and audio processing.
+A Python library for acoustic signal analysis and visualization
 
 ## Features
 
