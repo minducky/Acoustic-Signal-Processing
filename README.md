@@ -25,10 +25,9 @@ A Python library for acoustic signal analysis and visualization
   - dB scaling
   - Gaussian noise addition with specified SNR
 - **Frequency Filters**:
-  - Highpass, lowpass, bandpass, bandstop (Butterworth filters)
+  - Highpass, lowpass, bandpass (Butterworth filters)
 - **Temporal**:
   - Resampling
-  - Silence trimming
 
 ### Visualization
 - **Temporal Analysis Plot**: Waveform + Spectrogram with shared x-axis
