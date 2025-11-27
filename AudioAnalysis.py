@@ -149,15 +149,9 @@ def resample_audio(y, sr_orig, sr_target):
 
 
 # ================================================= Plotly Visualization ================================================= #
-# ================================================= Plotly Visualization ================================================= #
 def plot_temporal_analysis(t, y, sr, nperseg=1024, noverlap=512):
-    """
-    Temporal analysis: Waveform + Spectrogram (shared x-axis)
-    """
-    # Calculate spectrogram
     Sfreq, Stime, _, Sxx_db = cal_spectrogram(y, sr, nperseg=nperseg, noverlap=noverlap)
 
-    # Create subplots
     fig = make_subplots(
         rows=2, cols=1,
         row_heights=[0.3, 0.7],
@@ -167,14 +161,12 @@ def plot_temporal_analysis(t, y, sr, nperseg=1024, noverlap=512):
         vertical_spacing=0.08
     )
 
-    # Waveform
     fig.add_trace(
         go.Scatter(x=t, y=y, mode='lines', line=dict(color='#1f77b4', width=1)),
         row=1, col=1
     )
     fig.update_yaxes(title_text="Amplitude", row=1, col=1)
 
-    # Spectrogram
     fig.add_trace(
         go.Heatmap(x=Stime, y=Sfreq, z=Sxx_db, colorscale='Cividis',
                    colorbar=dict(title='dB', x=1.02, len=0.7, y=0.35)),
@@ -183,45 +175,34 @@ def plot_temporal_analysis(t, y, sr, nperseg=1024, noverlap=512):
     fig.update_xaxes(title_text="Time (s)", row=2, col=1)
     fig.update_yaxes(title_text="Frequency (Hz)", row=2, col=1)
 
-    # Link x-axes
     fig.update_xaxes(matches='x', row=1, col=1)
     fig.update_xaxes(matches='x', row=2, col=1)
 
-    # Layout
     fig.update_layout(height=700, template='plotly_white', showlegend=False)
 
     return fig
 
 
 def plot_frequency_analysis(y, sr, nperseg=1024, noverlap=512, freq_range=(20, None)):
-    """
-    Frequency analysis: FFT + Welch PSD
-    """
-    # Calculate analyses
     freq, _, _, fft_db = cal_fft(y, sr)
     fpsd, _, psd_db = cal_welch(y, sr, nperseg=nperseg, noverlap=noverlap)
 
-    # Create figure
     fig = go.Figure()
 
-    # FFT
     N = len(freq)
     fig.add_trace(
         go.Scatter(x=freq[:N // 2], y=fft_db[:N // 2], mode='lines',
                    name='FFT', line=dict(color='#ff7f0e', width=1))
     )
 
-    # Welch
     fig.add_trace(
         go.Scatter(x=fpsd, y=psd_db, mode='lines',
                    name='Welch', line=dict(color='#2ca02c', width=1))
     )
 
-    # Frequency range
     freq_min = freq_range[0] if freq_range[0] is not None else 20
     freq_max = freq_range[1] if freq_range[1] is not None else sr / 2
 
-    # Layout
     fig.update_layout(
         title='Frequency Analysis',
         xaxis_title='Frequency (Hz)',
