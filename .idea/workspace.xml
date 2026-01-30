@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d43fe7-8ba1-4d91-a5a2-47e456b65678" name="Changes" comment="Code Cleaning" />
+    <list default="true" id="43d43fe7-8ba1-4d91-a5a2-47e456b65678" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interaural.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_listen_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recording.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roomacoustics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AudioAnalysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AudioAnalysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_augmentation/data_aug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_augmentation/data_augmentation_plot.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/BD.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/L1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/MTF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/Ripples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/STRF_ducky.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/STRF_paper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/TRF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/w.npy" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +42,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "minducky"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;minducky&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/minducky/Acoustic-Signal-Processing.git",
-    "accountId": "663d09e6-fb5a-4ad4-b0c0-708f472797be"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/minducky/Acoustic-Signal-Processing.git&quot;,
+    &quot;accountId&quot;: &quot;663d09e6-fb5a-4ad4-b0c0-708f472797be&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="363pLiBCMbQvRCQWGOTuoRxyYKh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,6 +73,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/dm1u25/PycharmProjects/Acoustic-Signal-Processing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,7 +103,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764245055537</updated>
-      <workItem from="1764245056803" duration="9813000" />
+      <workItem from="1764245056803" duration="10729000" />
+      <workItem from="1764329789659" duration="2000" />
+      <workItem from="1768987230997" duration="1000" />
+      <workItem from="1769709777806" duration="644000" />
+      <workItem from="1769770940534" duration="3773000" />
+      <workItem from="1769780810423" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="Code Cleaning">
       <option name="closed" value="true" />
@@ -107,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764257402841</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1764257619110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764257619110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code Cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Cleaning" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
