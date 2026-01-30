@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d43fe7-8ba1-4d91-a5a2-47e456b65678" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interaural.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plotter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read_listen_save.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recording.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomacoustics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AudioAnalysis.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AudioAnalysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_augmentation/data_aug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_augmentation/data_augmentation_plot.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/BD.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/L1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/MTF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/Ripples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/STRF_ducky.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/STRF_paper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/TRF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectro-temporal-receptive-field/w.npy" beforeDir="false" />
-    </list>
+    <list default="true" id="43d43fe7-8ba1-4d91-a5a2-47e456b65678" name="Changes" comment="New Acoustic-Signal-Processing repo after fundamental acoustics lecture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +63,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ㅋ_transform" />
     </key>
@@ -108,7 +90,7 @@
       <workItem from="1768987230997" duration="1000" />
       <workItem from="1769709777806" duration="644000" />
       <workItem from="1769770940534" duration="3773000" />
-      <workItem from="1769780810423" duration="470000" />
+      <workItem from="1769780810423" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Code Cleaning">
       <option name="closed" value="true" />
@@ -142,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764257619110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New Acoustic-Signal-Processing repo after fundamental acoustics lecture">
+      <option name="closed" value="true" />
+      <created>1769781310351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769781310351</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code Cleaning" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="New Acoustic-Signal-Processing repo after fundamental acoustics lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Acoustic-Signal-Processing repo after fundamental acoustics lecture" />
   </component>
 </project>
